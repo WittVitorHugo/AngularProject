@@ -1,0 +1,16 @@
+<table>
+
+
+  <tr>
+    <th>ID</th>
+    <th>NCM</th>
+    <th>Descrição</th>
+  </tr>
+  <tr *ngFor= "let cest of cests; let i = index;">
+    <td>{{ cest.id }}</td>
+    <td>{{ cest.ncm }}</td>
+    <td>{{ cest.descricao }}</td>
+  </tr>
+
+
+</table>
